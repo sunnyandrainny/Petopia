@@ -1,0 +1,176 @@
+*, body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+header .menuLeft{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+header .menuLeft nav{
+    display: flex;
+    gap: 20px;
+}
+header .menuLeft nav a{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: fit-content;
+    height: 60px;
+    margin-right: -15px;
+    padding-top: 10px;
+}
+header .menuRight i:hover,
+header .menuLeft a:hover{
+    color: #ed4d8b;
+}
+header .menuRight{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+header .logo{
+    font-size: 28px;
+    font-weight: 900;
+}
+.cart{
+    width: 60%;
+    margin: 30px auto;
+    background-color: #be064c;
+    padding: 0px 40px 60px 40px;
+}
+.cart .top .top1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+   align-items: center;
+}
+.cart .top .top2{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -40px;
+    text-shadow: 8px 8px 8px #596b8c;
+}
+.body{
+    width: 80%;
+    height: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 30px 20px;
+}
+.body .heading{
+    display: flex;
+    gap: 520px;
+    border-bottom: 1px solid rgb(168, 158, 158);
+    padding-bottom: 10px;
+}
+.product1{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.product1 .left img{
+    width: 100px;
+    height: 100px;
+}
+.product1 .right .nameFood{
+    font-weight: 600;
+    margin: 10px 0;
+}
+.product1 .right .quantity{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid gray;
+    width: 30%;
+    justify-content: center;
+    border-radius: 12px;
+}
+.product1 .total{
+    margin-top: 20px;
+}
+.totalMoney{
+    text-align: right;
+    padding-right: 30px;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.footer{
+    background-color: #F3A8BB;
+    padding: 20px 40px;
+    display: flex;
+    gap: 150px;
+    border-radius: 0 0 16px 16px;
+    margin-top: 40px;
+}
+.footer .infor{
+    color: white;
+}
+.footer .infor .logo{
+    font-size: 28px; 
+    font-weight: 800; 
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.footer .infor .logo img{
+    width: fit-content;
+    height: 60px;
+    margin-right: -15px;
+    padding-top: 10px;
+}
+.footer .infor .address,
+.footer .infor .phone{
+    font-weight: 600;
+    margin: 20px 0;
+}
+.footer .infor .address i,
+.footer .infor .phone i{
+    color: #be064c;
+}
+.footer .infor .network{
+    display: flex;
+    gap: 10px;
+}
+.footer .infor .network i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    color: #be064c;
+    background-color: white;
+    
+}
+.footer .cooporate,
+.footer .information,
+.footer .service{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.footer .infor .network,
+.footer .infor .phone,
+.footer .infor .address,
+.footer .cooporate p,
+.footer .information p,
+.footer .service p{
+    cursor: pointer;
+}
